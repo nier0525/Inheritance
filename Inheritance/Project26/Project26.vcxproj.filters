@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MainClass">
+      <UniqueIdentifier>{2fd74d92-d294-47fc-b615-2b410c3dbe3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ListNode">
+      <UniqueIdentifier>{43f8edca-d81a-497e-8210-8553080b55cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoginM">
+      <UniqueIdentifier>{e84acb61-32b7-42be-a533-c1eef5537172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterClass">
+      <UniqueIdentifier>{35bbbf56-58af-47de-8ae0-7831a05a2889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterClass\Data">
+      <UniqueIdentifier>{aae6b163-0e06-42e2-97f5-fd99f7211b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterClass\Manager">
+      <UniqueIdentifier>{922faa83-0d5c-4313-b650-b2ddba6040ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemClass">
+      <UniqueIdentifier>{65a36f5d-3040-4e77-8634-e4acaaa47144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemClass\Data">
+      <UniqueIdentifier>{23198b93-4b82-440b-95f8-59bf8abdc65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemClass\Manager">
+      <UniqueIdentifier>{3ad9c103-a774-416b-b330-39208ec8da7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoginM\UserClass">
+      <UniqueIdentifier>{96d95f2f-1f0e-49df-848f-e40f51d77c3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>LoginM\UserClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>ListNode</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>LoginM</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>CharacterClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Elf.h">
+      <Filter>CharacterClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Oak.h">
+      <Filter>CharacterClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>CharacterClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>CharacterClass\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ItemClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Portion.h">
+      <Filter>ItemClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>ItemClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Wenpon.h">
+      <Filter>ItemClass\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>ItemClass\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>LoginM\UserClass</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>LoginM</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>CharacterClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Elf.cpp">
+      <Filter>CharacterClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Oak.cpp">
+      <Filter>CharacterClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>CharacterClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>MainClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>CharacterClass\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ItemClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Portion.cpp">
+      <Filter>ItemClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>ItemClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Wenpon.cpp">
+      <Filter>ItemClass\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>ItemClass\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
